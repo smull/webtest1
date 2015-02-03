@@ -9,8 +9,8 @@ import java.lang.annotation.Target;
  * Created by user on 03.02.2015.
  */
 
-@Target(value= ElementType.METHOD)
+@Target(value= ElementType.TYPE)
 @Retention(value= RetentionPolicy.RUNTIME)
 public @interface Controller {
-    String nameController();
+    public String nameController();
 }

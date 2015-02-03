@@ -11,6 +11,9 @@ public class Constants {
     public final static String LOGIN_ROLE_PARAMETER_ADMIN = "Admin";
     public final static String LOGIN_ROLE_PARAMETER_USER = "User";
 
+    public final static String LOGIN = "Login";
+    public final static String LOGOUT = "LogOut";
+
 
 
     public final static String LOGIN_USER_QUERY = "SELECT * FROM User WHERE email = ?";

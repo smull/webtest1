@@ -12,7 +12,7 @@
     <title>Login Page</title>
 </head>
 <body>
-<form action="login" method="post">
+<form action="only" method="post">
 
     Email: <input type="text" name="<%=Constants.LOGIN_EMAIL_PARAMETER%>">
     Password: <input type="password" name="<%=Constants.LOGIN_PASSWORD_PARAMETER%>">
